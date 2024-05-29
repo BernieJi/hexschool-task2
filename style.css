@@ -208,7 +208,7 @@ img {
   display: none;
 }
 
-@media(max-width: 768px) {
+@media screen and(max-width: 768px) {
   .header-content{
     padding: 8px 0px;
     height: 64px;
@@ -328,12 +328,13 @@ img {
   word-break: break-all;
 }
 
-@media(max-width: 768px) {
+@media screen and(max-width: 768px) {
   .banner{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 90px 24px 80px 24px;
   }
 
   .banner-top{
